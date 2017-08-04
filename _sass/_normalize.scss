@@ -87,6 +87,8 @@ body {
 
 a {
     background: transparent;
+    text-decoration: underline;
+    text-shadow: 2px 2px #ffcccc;
 }
 
 /**
@@ -104,7 +106,7 @@ a:focus {
 a:active,
 a:hover {
     outline: 0;
-    text-shadow: 2px 2px #ffcccc;
+    
 }
 
 /* ==========================================================================
