@@ -87,8 +87,9 @@ body {
 
 a {
     background: transparent;
-    text-decoration: underline;
-    text-shadow: 2px 2px #ffcccc;
+
+       text-decoration: none;
+    box-shadow: inset 0 -8px 0 #ffcccc;
 }
 
 /**
