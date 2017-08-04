@@ -87,7 +87,6 @@ body {
 
 a {
     background: transparent;
-    box-shadow: inset 0 -8px 0 #ffcccc;
 }
 
 /**
@@ -101,11 +100,6 @@ a:focus {
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-
-a:hover, a:visited, a:link, a:active
-{
-    text-decoration: none;
-}
 
 a:active,
 a:hover {
