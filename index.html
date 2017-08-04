@@ -8,7 +8,19 @@
 body {    font-family: 'Heebo';font-size: 18px;color:red;}
 h1.tom {    font-family: 'Roboto Mono';font-size: 20px;color:red;}
     a:hover {     text-decoration:none; background-color: #ffcccc; color: black;}
-     
+
+ .blinking-cursor {  animation: 1s blink step-end infinite; -webkit-animation: 1s blink step-end infinite;}
+
+    @keyframes "blink" {from, to {opacity: 0;}50% {opacity: 1;}}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
 </style>
   
   <meta charset="utf-8">
