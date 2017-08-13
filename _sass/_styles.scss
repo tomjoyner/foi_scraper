@@ -1,0 +1,51 @@
+$primary-highlight: #eb0000;
+$secondary-highlight: #ffcccc;
+$primary-text: #333333;
+$secondary-font: 'Roboto Mono', 'Roboto', Helvetica, Arial, sans-serif;
+$primary-font: 'Roboto', Helvetica, Arial, sans-serif;
+
+body {
+	font-family: $primary-font;
+	font-size: 18px;
+}
+p {
+	font-size: 18px;
+	line-height: 26px;
+}
+h1.special {
+	font-family: ;
+	font-size: 20px;
+	color: $primary-highlight;
+	font-weight: 400;
+}
+a {
+	text-decoration: underline;
+	&:hover {
+		text-decoration: none;
+		background-color: $secondary-highlight;
+		color: $primary-text;
+	}
+}
+.articles {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	
+	li {
+		display: flex;
+		padding: 10px 0;
+	}
+	.date {
+		padding-right: 10px;
+	}
+}
+.date {
+	font-family: $secondary-font;
+	color: $primary-highlight;
+}
+.blinking-cursor {
+	animation: 1s blink step-end infinite;
+	-webkit-animation: 1s blink step-end infinite;
+}
+@keyframes "blink" {from, to {opacity: 0;}50% {opacity: 1;}}
+@-webkit-keyframes "blink" {from, to {opacity: 0;}50% {opacity: 1;}}
