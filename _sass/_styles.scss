@@ -43,6 +43,14 @@ a {
 	font-family: $secondary-font;
 	color: $primary-highlight;
 }
+.container {
+	display: flex;
+	flex-direction: row ltr;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;	
+}
 .blinking-cursor {
 	animation: 1s blink step-end infinite;
 	-webkit-animation: 1s blink step-end infinite;
