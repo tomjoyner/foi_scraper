@@ -1,6 +1,6 @@
 $primary-highlight: #0051FF;
 $secondary-highlight: #FFF1B4;
-$footer-highlight: #ABABAB;
+$footer-highlight: #828282;
 $primary-text: #333333;
 $primary-font: 'Heebo', Helvetica, Arial, sans-serif;
 $secondary-font: 'Roboto Mono', 'Heebo', Helvetica, Arial, sans-serif;
@@ -78,7 +78,6 @@ a {
 }
 .footer
 {
-	padding-top: 8px;
 	font-family: $primary-font;
 	font-size: 19px;
 	color: $footer-highlight;
