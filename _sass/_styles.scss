@@ -3,6 +3,7 @@ $secondary-highlight: #ffcccc;
 $primary-text: #333333;
 $secondary-font: 'Roboto Mono', 'Roboto', Helvetica, Arial, sans-serif;
 $primary-font: 'Roboto', Helvetica, Arial, sans-serif;
+$mobile-break: 600px;
 
 body {
 	font-family: $primary-font;
@@ -26,6 +27,22 @@ a {
 		color: $primary-text;
 	}
 }
+.introduction {
+	display: flex;
+	
+	@media screen and (max-width: $mobile-break) {
+		display: block;
+	}
+	.text {
+		flex: 1;
+	}
+	.illustration {
+		flex: 1;
+		img {
+			width: 100%;
+		}
+	}
+}
 .articles {
 	list-style: none;
 	margin: 0;
@@ -42,14 +59,6 @@ a {
 .date {
 	font-family: $secondary-font;
 	color: $primary-highlight;
-}
-.container {
-	display: flex;
-	flex-direction: row ltr;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	align-content: center;	
 }
 .item {
 	flex-basis: auto;
