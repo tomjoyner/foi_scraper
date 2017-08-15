@@ -16,7 +16,12 @@ p {
 p.stretch {
 	font-size: 26px;
 	line-height: 32px;
-	font-weight: 200;
+	font-weight: 100;
+}
+p.stretch2 {
+	font-size: 22px;
+	line-height: 30px;
+	font-weight: 100;
 }
 h1.special {
 	font-family: $secondary-font;
