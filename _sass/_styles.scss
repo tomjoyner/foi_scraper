@@ -1,8 +1,9 @@
 $primary-highlight: #0051FF;
 $secondary-highlight: #FFF1B4;
+$footer-highlight: #ABABAB;
 $primary-text: #333333;
-$secondary-font: 'Roboto Mono', 'Heebo', Helvetica, Arial, sans-serif;
 $primary-font: 'Heebo', Helvetica, Arial, sans-serif;
+$secondary-font: 'Roboto Mono', 'Heebo', Helvetica, Arial, sans-serif;
 $mobile-break: 600px;
 
 body {
@@ -74,6 +75,14 @@ a {
 }
 .illustration {
 	padding-left: 10px;
+}
+.footer
+{
+	padding-top: 20px;
+	font-family: $primary-font;
+	font-size: 19px;
+	color: $footer-highlight;
+	font-weight: 300;
 }
 .blinking-cursor {
 	animation: 1s blink step-end infinite;
