@@ -51,6 +51,10 @@ a {
 	align-items: center;
 	align-content: center;	
 }
+.item {
+	flex-basis: auto;
+	align-self: auto;
+}
 .blinking-cursor {
 	animation: 1s blink step-end infinite;
 	-webkit-animation: 1s blink step-end infinite;
