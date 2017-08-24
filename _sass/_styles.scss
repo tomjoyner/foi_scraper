@@ -2,16 +2,18 @@ $primary-highlight: #0051FF;
 $secondary-highlight: #FFF1B4;
 $footer-highlight: #828282;
 $primary-text: #333333;
-$primary-font: 'Heebo', Helvetica, Arial, sans-serif;
-$secondary-font: 'Roboto Mono', 'Heebo', Helvetica, Arial, sans-serif;
+$primary-font: 'Work Sans', Helvetica, Arial, sans-serif;
+$secondary-font: 'Roboto Mono', 'Work Sans', Helvetica, Arial, sans-serif;
 $mobile-break: 600px;
 
 body {
 	font-family: $primary-font;
-	font-size: 18px;
+	font-size: 19px;
+	font-weight: 300;
+
 }
 p {
-	font-size: 18px;
+	font-size: 19px;
 	line-height: 26px;
 	font-weight: 300;
 }
