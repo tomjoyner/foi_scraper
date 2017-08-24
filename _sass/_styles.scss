@@ -2,8 +2,8 @@ $primary-highlight: #0051FF;
 $secondary-highlight: #FFF1B4;
 $footer-highlight: #828282;
 $primary-text: #333333;
-$primary-font: 'Karla', Helvetica, Arial, sans-serif;
-$secondary-font: 'Roboto Mono', 'Karla', Helvetica, Arial, sans-serif;
+$primary-font: 'Heebo', Helvetica, Arial, sans-serif;
+$secondary-font: 'Roboto Mono', 'Heebo', Helvetica, Arial, sans-serif;
 $mobile-break: 600px;
 
 body {
@@ -13,6 +13,7 @@ body {
 p {
 	font-size: 18px;
 	line-height: 26px;
+	font-weight: 300;
 }
 p.stretch {
 	font-size: 20px;
