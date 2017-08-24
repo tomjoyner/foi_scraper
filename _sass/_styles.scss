@@ -1,4 +1,4 @@
-$primary-highlight: #626262;
+$primary-highlight: #9E9E9E;
 $secondary-highlight: #FFF1B4;
 $footer-highlight: #828282;
 $primary-text: #333333;
@@ -24,9 +24,7 @@ p.stretch {
 h1.special {
 	font-family: $primary-font;
 	font-size: 26px;
-	color: $primary-highlight;
 	font-weight: 500;
-	background-color: $secondary-highlight;
 }
 a {
 	text-decoration: underline;
