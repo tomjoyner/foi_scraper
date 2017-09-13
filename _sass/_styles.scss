@@ -2,12 +2,12 @@ $primary-highlight: #151515; /*Almost black*/
 $footer-highlight: #828282;
 $secondary-highlight: #FFF1B4;
 $primary-text: #333333;
-$primary-font: 'Adamina';
-$secondary-font: 'Roboto Mono', 'Heebo', Helvetica, Arial, sans-serif;
+$header-font: 'Adamina';
+$body-font: 'Heebo', Helvetica, Arial, sans-serif;
 $mobile-break: 600px;
 
 body {
-	font-family: $primary-font;
+	font-family: $body-font;
 	font-size: 19px;
 
 }
@@ -22,10 +22,10 @@ p.stretch {
 	font-weight: 400;
 }
 h1.special {
-	font-family: $primary-font;
+	font-family: $header-font;
 	color: $primary-highlight;
 	font-size: 26px;
-	font-weight: 500;
+	font-weight: 400;
 }
 a {
 	text-decoration: underline;
