@@ -1,7 +1,7 @@
 $primary-highlight: #151515; /*Almost black*/
 $footer-highlight: #828282; /*Light grey*/
 $secondary-highlight: #FFF1B4; /*Canary yellow*/
-$header-font: 'Adamina', ;
+$header-font: 'Adamina';
 $body-font: 'Heebo', Helvetica, Arial, sans-serif;
 $mobile-break: 600px;
 
@@ -11,11 +11,6 @@ body {
 
 }
 p {
-	font-size: 18px;
-	line-height: 30px;
-	font-weight: 300;
-}
-p.stretch {
 	font-size: 19px;
 	line-height: 32px;
 	font-weight: 400;
@@ -63,10 +58,6 @@ a {
 		padding-right: 10px;
 	}
 }
-.date {
-	font-family: $secondary-font;
-	color: $primary-highlight;
-}
 .item {
 	flex-basis: auto;
 	align-self: auto;
@@ -79,14 +70,8 @@ a {
 }
 .footer
 {
-	font-family: $primary-font;
+	font-family: $body-font;
 	font-size: 19px;
 	color: $footer-highlight;
 	font-weight: 300;
 }
-.blinking-cursor {
-	animation: 1s blink step-end infinite;
-	-webkit-animation: 1s blink step-end infinite;
-}
-@keyframes "blink" {from, to {opacity: 0;}50% {opacity: 1;}}
-@-webkit-keyframes "blink" {from, to {opacity: 0;}50% {opacity: 1;}}
