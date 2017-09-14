@@ -67,6 +67,12 @@ a {
 		}
 	}
 }
+.text {
+	padding-right: 15px;
+}
+.illustration {
+	padding-left: 15px;
+}
 .articles {
 	list-style: none;
 	margin: 0;
@@ -83,12 +89,6 @@ a {
 .item {
 	flex-basis: auto;
 	align-self: auto;
-}
-.text {
-	padding-right: 15px;
-}
-.illustration {
-	padding-left: 15px;
 }
 .footer
 {
