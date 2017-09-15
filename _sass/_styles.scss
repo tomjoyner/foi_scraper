@@ -22,7 +22,7 @@ p.extra-special {
 	font-size: 16px;
 	font-weight: 400;
 	text-align: center;
-	$:a {
+	&:a {
 		text-background: none;
 		}
 }
