@@ -24,7 +24,7 @@ p.extra-special {
 	text-align: center;
 	&:a {
 		text-background: none;
-		}
+	}
 }
 h1 {
 	font-family: $header-font;
@@ -94,8 +94,7 @@ a {
 	flex-basis: auto;
 	align-self: auto;
 }
-.footer
-{
+.footer {
 	font-family: $body-font;
 	font-size: 19px;
 	color: $footer-highlight;
