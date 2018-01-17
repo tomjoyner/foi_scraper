@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta property="og:title" content="FOI Disclosure Log Scraper">
+<meta property="og:type" content="website">
+<meta property="og:image" content="">
+<meta property="og:image:url" content="https://">
+<meta property="og:image:alt" content="">
+<meta property="og:description" content="A basic tool to help track FOI disclosure logs across the Australian Government.">
+<meta name="description" content="A basic tool to help track FOI disclosure logs across the Australian Government.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="favicon.ico">
+<title>FOI Disclosure Log Scraper</title>
+<link href="css/main.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Heebo:300,400,500,700|Arimo" rel="stylesheet">
+</head>
+	
+<body>		
+<!--This is where the HEADER goes-->
+<div class="container-narrow">
+	<h1>Browse FOI requests made across the Australian Government in one place.</h1>
+	</div>
+	<!--This is where the MAIN INFO goes-->
+	<div class="container-wide">
+		<div class="introduction">
+			<div class="text">
+				<p>Under the <a href="https://www.legislation.gov.au/Details/C2017C00251">Freedom of Information Act 1982</a>, the Australian Government and its agencies are required to make certain information public at the request of ordinary Australian citizens.
+				Choose an agency below to see what information has been recently disclosed as the result of an FOI request.</p>
+				<p>You can also <a href="whatisfoi.html" target="_blank">learn about FOI and how to make your own request</a>.
+				</p>
+			</div>
+		</div>
+	</div>
+	<!--This is where the Department List goes-->
+	<div class="container-narrow">
+	<div class="dropdown">
+		<button onclick="myFunction()" class="dropbtn">Choose a department or agency</button>
+		<div id="myDropdown" class="dropdown-content">
+			<input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+			<a href="dpmc.html">Department of Prime Minister and Cabinet</a>
+		</div>
+	</div>
+	<script>
+/* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+function filterFunction() {
+    var input, filter, ul, li, a, i;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    div = document.getElementById("myDropdown");
+    a = div.getElementsByTagName("a");
+    for (i = 0; i < a.length; i++) {
+        if (a[i].innerHTML.toUpperCase().indexOf(filter) > -1) {
+            a[i].style.display = "";
+        } else {
+            a[i].style.display = "none";
+        }
+    }
+}
+</script>
+	</div>
+</body>
+	
+	<footer class="footer">
+		<div class="container-narrow">
+			<p>Made by Tom Joyner</p>
+		</div>
+	</footer>
+</html>
