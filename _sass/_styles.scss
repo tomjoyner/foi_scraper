@@ -40,6 +40,13 @@ h2 {
 	line-height: 32px;
 	font-weight: 400;
 }
+h3 {
+	font-family: $header-font;
+	color: $primary-highlight;
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: 400;
+}
 a {
 	text-decoration: none;
 	background-color: $secondary-highlight;
