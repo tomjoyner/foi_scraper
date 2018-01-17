@@ -42,6 +42,10 @@ a {
 		color: $primary-highlight;
 	}
 }
+a.disclosurelog-button {
+	text-decoration: none;
+	background-color: none;
+}
 .foi-button {
 	background: transparent;
 	border: 5px #151515;
