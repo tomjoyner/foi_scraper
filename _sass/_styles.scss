@@ -49,6 +49,15 @@ a {
 		color: $primary-highlight;
 	}
 }
+a.no-highlight {
+	text-decoration: none;
+	background-color: none;
+	&:hover {
+		text-decoration: none;
+		background-color: $secondary-highlight;
+		color: $primary-highlight;
+	}
+}
 a.disclosurelog-button {
 	text-decoration: none;
 	background-color: none;
