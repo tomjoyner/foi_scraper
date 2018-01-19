@@ -188,8 +188,8 @@ a.disclosurelog-button {
 .topnav a {
     float: left;
     display: block;
-    color: #ffffff;
-	background-color: #151515;
+    color: $primary-highlight;
+	background-color: $secondary-highlight;
     text-align: center;
     padding: 4px 16px;
     text-decoration: none;
