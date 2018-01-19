@@ -53,6 +53,15 @@ a.disclosurelog-button {
 	text-decoration: none;
 	background-color: none;
 }
+a.nav {
+	text-decoration: none;
+	background-color: none;
+	&:hover {
+		text-decoration: none;
+		background-color: none;
+		color: #151515;
+	}
+}
 /*Not sure what this button is for. I honestly can't remember*/
 .foi-button {
 	background: transparent;
@@ -185,7 +194,7 @@ a.disclosurelog-button {
 	top: 0;
 }
 /* Style the links inside the navigation bar */
-.topnav a.disclosurelog-button {
+.topnav a.nav {
     float: left;
     display: block;
     color: #ffffff;
