@@ -180,6 +180,9 @@ a.disclosurelog-button {
 .topnav {
     background-color: #151515;
     overflow: hidden;
+	width: 100%;
+	position: absolute;
+	top: 0;
 }
 /* Style the links inside the navigation bar */
 .topnav a {
