@@ -178,7 +178,6 @@ a.disclosurelog-button {
 /*********************TOP NAVIGATION**********************/
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: none;
     overflow: hidden;
 	width: 100%;
 	position: absolute;
@@ -189,7 +188,7 @@ a.disclosurelog-button {
     float: left;
     display: block;
     color: $primary-highlight;
-	background-color: none !important; 
+	background-color: #ffffff !important; 
     text-align: center;
     padding: 4px 16px;
     text-decoration: none;
