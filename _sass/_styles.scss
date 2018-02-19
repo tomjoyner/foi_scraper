@@ -49,6 +49,16 @@ a {
 		color: $primary-highlight;
 	}
 }
+/*Buttons in the top navigation*/
+a.nav {
+	text-decoration: none;
+	background-color: none;
+	&:hover {
+		text-decoration: none;
+		background-color: $secondary-highlight;
+		color: $primary-highlight;
+	}
+}
 a.disclosurelog-button {
 	text-decoration: none;
 	background-color: none;
